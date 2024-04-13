@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="icon" href="images/d.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="phone.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <title>DeskmateAI</title>
+</head>
+
+<body>
+    <header class="header sticky-top" id="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container">
+                <div class="col-2 pt-2 zoom">
+                    <a href="#"><img src="images/logo.svg" alt="DeskmateAI"></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link zoom" aria-current="page" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link zoom" href="#services">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link zoom" href="#what-we-do">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link zoom" href="#footer">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <button class="btn btn-outline-secondary fw-bold rounded-pill zoom`" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal" type="submit">Get a Quote</button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="container my-5 ">
+        <div class="row align-content-lg-between">
+            <div id="left-home" class="col-sm d-flex align-items-center mt-auto">
+                <div>
+                    <h1 data-aos='fade-up' class="fw-bolder">Welcome to DeskmateAI</h1>
+                    <h5 data-aos="fade-up" class="mt-3">We Provide Custom Solutions for you Business </h5>
+                    <div class="justify-content-center">
+                        <a href="#what-we-do"
+                            class="btn btn-primary btn-lg rounded-pill justify-content-between mt-4 mx-4 zoom">
+                            <span>Get Started </span>
+                        </a>
+                        <!-- <a href="#what-we-do"
+                            class="btn btn-primary btn-lg rounded-pill justify-content-between mt-4 mx-4 zoom">
+                            <span>Learn More </span>
+                        </a> -->
+                        <button class="btn btn-primary btn-lg rounded-pill justify-content-between mt-4 mx-4 zoom"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit">Get a Quote</button>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-left" id="right-home" class="col-sm ">
+                <img src="images/deskmate_home.svg" alt="DeskmateAI">
+            </div>
+        </div>
+
+    </section>
+
+    <section id="services" class="container">
+        <h1 class="text-center fw-bolder">Our Services</h1>
+        <div id="services-main" class="row justify-content-center">
+            <div data-aos="zoom-in" class="col-sm-4 text-center ">
+                <img class="zoom" src="images/Asset 3.svg" alt="">
+                <h3>Designing</h3>
+            </div>
+            <div data-aos="zoom-in" class="col-sm-4 text-center ">
+                <img class="zoom" src="images/Asset 4.svg" class="image-fluid" alt="">
+                <h3>Development</h3>
+            </div>
+            <div data-aos="zoom-in" class="col-sm-4 text-center ">
+                <img class="zoom" src="images/Asset 5.svg" alt="">
+                <h3>Maintainance</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="what-we-do" class="container">
+        <h1 data-aos="flip-up" class="text-center fw-bolder">What We Do</h1>
+
+        <div id="about-us-main" class="row row-col-auto">
+            <div data-aos="zoom-out" class="col-6 p-3">
+                <img src="images/Asset 6.svg" alt="">
+            </div>
+            <div data-aos="zoom-out" class="col-6 d-flex align-items-center p-5">
+                <h4>We design websites and apps as per your
+                    requests and need, you just have to give us a
+                    name and a little details we will get your project
+                    ready in no time, No ifs No buts.</h4>
+            </div>
+
+            <div data-aos="zoom-in" class="col-6 p-3 i-1">
+                <img src="images/Asset 7.svg" alt="">
+            </div>
+
+            <div data-aos="zoom-in" class="col-6 d-flex align-items-center p-5">
+                <h4>We make every idea work, each and every
+                    minor detail will be overlooked in your given
+                    work several times until you are satisfied with
+                    our work.</h4>
+            </div>
+            <div data-aos="zoom-in" class="col-6 p-3 i-2">
+                <img src="images/Asset 7.svg" alt="">
+            </div>
+            <div data-aos="zoom-out" class="col-6 p-3">
+                <img src="images/Asset 8.svg" alt="">
+            </div>
+            <div data-aos="zoom-out" class="col-6 d-flex align-items-center p-5">
+                <h4>We never back out of a problem, as problems
+                    occur every now and then during the
+                    development of a project, even after the
+                    development, our maintainence services will
+                    be available for every problem that may be or
+                    may not be there.</h4>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" class="footer">
+        <div class="container contact">
+
+
+            <div class="row">
+                <div class="col-sm-4">
+                    <h5>About Us</h5>
+                    <p>We are a bunch of computer geeks who
+                        takes their projects too seriously and
+                        dedicate all of their time until we get to our
+                        goal.</p>
+
+                </div>
+                <div class="col-sm-4">
+                    <h5>Contact Info</h5>
+                    <div class="my-3">
+                        <a href="mailto:contact@deskmateai.tech" class="text-white text-decoration-none">
+                            <i class=" bi bi-envelope-fill"></i>
+                            <span class="top">contactus@deskmateai.tech</span> </a>
+                    </div>
+                    <div class="my-3">
+                        <a class="text-white text-decoration-none" href="tel:123456789"><i
+                                class=" bi bi-telephone-fill"></i>
+                            <span>7988635136</span></a>
+                    </div>
+                    <div class="my-3">
+                        <a class="text-white text-decoration-none " href="tel:123456789">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <span>UIET Kurukshetra University</span></a>
+                    </div>
+
+                    <div class="social mt-4">
+                        <h5>Be Social</h5>
+                        <a class="text-white text-decoration-none" href="https://twitter.com/DeskmateAI"
+                            target="_blank">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                        <a href="https://www.facebook.com/deskmateai/" target="_blank"
+                            class="text-white text-decoration-none">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/deskmateai/" target="_blank"
+                            class="text-white text-decoration-none">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/company/deskmate-ai" target="_blank"
+                            class="text-white text-decoration-none">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-sm-4 footer-nav ">
+                    <div>
+                        <a href=" #home" class="text-white text-decoration-none">
+                            <i class=" bi bi-chevron-right"></i>
+                            <span class="top">Home</span> </a>
+                    </div>
+                    <div>
+                        <a href="#home" class="text-white text-decoration-none">
+                            <i class=" bi bi-chevron-right"></i>
+                            <span class="top">Services</span> </a>
+                    </div>
+                    <div>
+                        <a href="#home" class="text-white text-decoration-none">
+                            <i class=" bi bi-chevron-right"></i>
+                            <span class="top">About Us</span> </a>
+                    </div>
+                    <div>
+                        <a href="#home" class="text-white text-decoration-none">
+                            <i class=" bi bi-chevron-right"></i>
+                            <span class="top">Blogs</span> </a>
+                    </div>
+                    <div>
+                        <a href="#home" class="text-white text-decoration-none">
+                            <i class=" bi bi-chevron-right"></i>
+                            <span class="top">Contact Us</span> </a>
+                    </div>
+
+                    <div class=" d-flex justify-content-center mt-5 mb-1">
+                        <a href="#">
+                            <img style="height: 25px; width: 25px; margin-right: 0.3rem;" src="images/d.svg" alt="">
+                        </a>
+                        <span class="text-muted">© 2021 Company, Inc</span>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Get a Quote</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="https://formsubmit.co/deskmateai@gmail.com" method="POST" class="row g-3">
+                        <div class="row">
+                            <div class="row mb-3 mt-3">
+                                <label for="inputPassword3" class="col-sm-2 col-form-label">Name</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" id="inputPassword3" name="Name" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputEmail4" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="inputEmail4" name="Email" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputPassword4" class="form-label">Phone No.(With Country Code)</label>
+                            <input type="tel" class="form-control" id="inputPassword4" name="Phone No.">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="inputCity" class="form-label">City</label>
+                            <input type="text" class="form-control" id="inputCity" name="City">
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                name="Project Description" style="height: 100px"></textarea>
+                            <label for="floatingTextarea2">Project Description</label>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+
+        // You can also pass an optional settings object
+        // below listed default settings
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 1000, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: false, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+
+    </script>
+
+
+</body>
+
+</html>
